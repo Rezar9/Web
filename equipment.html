@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="market.css">
+    <link rel="stylesheet" href="payment.html">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            FireMarket
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" target="_blank">About</a>
+          <a href="login.html" target="_blank">Login</a>
+          <a href="register.html" target="_blank">Register</a>
+          <a href="payment.html" target="_blank">Payment</a>
+        </div>
+    </div>
+
+
+    <div></div>
+    <div class="grid-row">
+      <div class="product">
+        <div class="product--card">
+          <a class="product--image" href="payment.html" title="View">
+            <img class="img-responsive" src="https://ua.all.biz/img/ua/catalog/16420275.jpeg">
+            <span class="tags"></span>
+          </a>
+          <a class="product--title" href="payment.html" title="View">лом пожежний</a>
+          <div class="product--brand">
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+              <div class="price--rrp">не плати $27.21</div>
+              <div class="price--sell-price">$13.99</div>
+            </span>
+          </a>
+        </div>
+      </div><div class="product">
+        <div class="product--card">
+          <a class="product--image"  title="View">
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmYYMulF2FhTcwYyAiqvNdn-ElyamtGTvxvA&usqp=CAU">
+            <span class="tags"><span class="availability sold-out">Sold out</span></span>
+          </a>
+          <a class="product--title"  title="View">лом пожежний</a>
+          <div class="product--brand">
+
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product--card">
+          <a class="product--image" href="payment.html" title="View">
+            <img class="img-responsive" src="https://sc04.alicdn.com/kf/H8e2def8961144a55bddb8e9518ec818cJ.jpg">
+            <span class="tags">
+        </span>
+          </a>
+          <a class="product--title" href="payment.html" title="View">лом-молот</a>
+          <div class="product--brand">          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                    <div class="price--sell-price">$9.98</div>
+                   </span>
+          </a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="http://ukr.okean.ua/images/budmarket/small/40-000.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">лом легкий</a>
+    
+          <div class="product--brand">
+    
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$9.98</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://boiler.ua/content/images/40/480x480l50mc0/topor-pozharnogo-poyasnoy-1-kg-75284098544054.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">поясна сокира</a>
+    
+          <div class="product--brand">
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+                    <div class="price--rrp">Don't pay $29.95</div>
+        
+                    <div class="price--sell-price">$18.49</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSExEVFhUXFxYXFRgVFxYYFRcVFRIXFxUWFRcYHSggGBolHRcVITEhJSkrLi4uFyAzODMtNygtLisBCgoKDg0OGxAQGy0mICUtLS84NTUtLysrNysrLS0tLTItLS0tLy0rMi0tLS0tLS0tLS0vLy0tLS0vLSstLTUtLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAQIDBgQFBwj/xAA+EAACAQIDBgIGCQMCBwAAAAAAAQIDEQQhMQUGEkFRYRNxByIygZHwFCNCUmKhscHRM1PhQ7JzgpOis9Lx/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAIEBQMGAf/EAC0RAQACAgEDAgQEBwAAAAAAAAABAgMRBBIhMQVBQnGR8FGhsdETFCIyM2HB/9oADAMBAAIRAxEAPwD3EAAAAAAAAAAAAAAAAAAACtSN01dq6tlk8+jAVKiirtpLq3ZHX4jeDCU/bxVCPnUh/JqG9GxatO8uJyjym+Xaf3X30fbQ8t3mreuqX3c5ebWS+H6nPLfortb4XF/mc0Y/r8n0Pgdq4et/Sr0qn/DnGX+1nMPlOLs7rJrRrW/mbRsPf/HYVpeM6sF9iteat2l7S+Nuxwryo94aub0G0RvHbfz7fm+hAajun6QMLjbQb8Gt9ybyk/wS0l5ZPsbcWa2i0bhiZsOTDbpyRqQAEnIAAAAAAABXiIuVb7EKf4WBmQIiSAAAAoy5jbz0Am5PEY3J/dZN+wFmy0WYnLsy8H2sBcAAAABSpG6s9HrfQ83319HqqT8fDxVsnOkklJ6L1JXWVtY/Doekz8inF2I2rFo1Ltgz3w366TqXzNUwkI8TlKUYqbhbh9ZSWqavkl8StfAxh/Una7ajwxve3N9NVkeuelDA4aFH6RJ+FWcoqPCovxX0nFq2Sz49VZa6HkdKvNXtW1d8+F59VfT3FDJSKTp63hcq/Ix9fj7+S+JwyjCNS/D6kElFaytduT5fubvuX6R6tK1LE3qU9FL7cV5v2l2fx5GhzqySf1qeSi1aOi0Vu3XUwUXmQi01ndVi+CmenRkjcffh9QbPx9KvBVKU1OL0a/RrVPszknz3u7vBWwk1OlO33ovOMl0kj2PdfeyjjEknwVbZwb16uD+0vzLuLPF+0+XmOd6Zk4/9Ve9fzj5/u2EhkkM7stUKXz8St+wcn90C938//QRbt8/AAXAAAAAAAAAAAAAAAAAAAAAADFisRGnBzk7JfNl3A+ffSRtitiMdVjVTiqMpU4Q5KKftecspX7roauej74bFljq0q7koyeUUklaKXqpte0+7/Sx59jsHUoz4KkbPk+T8mZl9TMzE7ew4PLr0Vx2jpmPoxRRyqEDBSVznU4kGmvFHJw1aUGpRbTWaabTT5NNaMwRLoPj1DdT0gp2pYt9EqqX/AJEv9y965nodOopJSi001dNO6aejTWp864SjKpJQgrt/BdW+iPTd3MQ8LBU4O6Wbvo29Xbl7i5gyWntLzHq3FwYpiadpn29vn/pv4OBgtqwqfhffT3M55a2xAAAAAABDY4gJBFyQAITJAAAAAGABXiJTAkAi4Bu2bNL27tN158Mf6cdO7+8/2/ydrvTtCy8KLzecvLkvf86msN2RR5WX4YX+Jh+OVZ5HSbewdOtBwkr9HzT6o7KvVOpxtdJNt5LUp13vsvzrTzivGVGo6c+TyfVHZ0pXVz1zdXcSlKE62MpKU60OCMJa0qTz841Hk76xskrO9/Pt5d0KuAr8F1KhPidKo3ayVrqplZSV+WuvlbvimI6lvgeo1vP8K89/afxdSjJTg5NRSbbySWrZMcPJtqPrWt7Oaz0sbVsTZapLilnUfwiui/dnOlJtK5y+bTj035n2hytibMVGOec5e0+n4V2/U7mkjj0Y3aRzsNAuRGo1DyWXLbLab2nvLsMDTNlwCfDn7jqNn4e7SNgjGysjrWHGZSACSIAAKyIsTONyrpd2AsTYhUu48LuwJS7FzHGn3v8AoZAAAAEMkhoCoaI8PuPC7sCbfPz85mOvVUIuT0Sv89+RkdPuzW96MVa1KL7y/Zfv8CF7RWu06Um1tQ6TF4jjnKbd835HBrVC05fDl3OBiaxk2nc7bNI6Y0xYiqd7uTu940liasfq4v6qL+3NP23+GL06vPkr9du3sR4yq07qlBrxZaX6U4vq+fReaPVKVNRSjFJRSSSWSSSsklyRc42H4pUuVn+Gqx123dlQxVGdGekllK2cZWykr81/jmdiUcM7l1RiZidw8jwGz/otSpRm0qsUrtJqF3Z8UFyTR2caitrlw24bc7a/HO5se+ux+OCxEF69P2u9Pmvdr8TWsJG+qscumK9odb5LZJ6rT3c6jm075XVlbQ7TDUb2svJfOph2fhHJ2irvn283yNmwGAVPN5y69OyJRG0JlfBYbgWer1/g5IBNAAAAAAAAAAAAAAAAAAAAAAYcZiFTg5vlour5I0HGVnOUm3zd31Z3W8uP4pcEXkv10b/Ze81bFVlpy+czP5OTqnpho8XFqOqWLFVziYDB1MTVVGn7TzcuUILWT+PvbsYqkpTlGEIuU5PhhFatv5vfkken7r7BjhKVrqVSVnVn1fJL8K0XvfMjgw9c7nwnyM/RGo8udsrZ1PD0o0qatGK56yfOUnzbeZywDSZYAAIkr5PQ6bDbuUotttyV8lokuSfN/kd0BoUpUoxVopJdErFwAAAAAAACvEOICwCAAAAACjYFwU4ieICwKtkpgSdbtrH+FCyfrPTsuvn0/wAHMxeJVOLk/d3fQ0Ta2Pc5OTfz2OGfL0RqPKxgw9c7nw4mMxB0WMxP+LZtt6JLmzJjsXrdm1bi7su6xdeOetGD+yv7kl958lyWerypYsc3lfy5Yx1djuVu34EfHrL6+a0/tQf2F+J837uWe1FZMi5p1rFY1DKtabTuVwV4hxH1FYFUywAAAACGBIKXZKkBYFeL5z/gAU40R4i7mYiwCJIAAAADG5Z2MgAwuoiXJGUAYfEXUSrRinJuyWrZepNRXE2klzZqW3dsceSyitF+77nLLlikOuLFOSdQxbb2q6j7LRdPM1TaGM7k4/Ha5nZ7n7rvEtYivH6jWnB/6r5Skv7fb7XlrRrW2W22ja1cNdM25W7PjOOKrx+rWdKDXtvlUkvu9Fz10tf0YJA0aUisahmXvN53KlRlXNGUEkGJSQ8RGUAYlNcr3MoAAAACGSAMXGu5HiLuZgBT4/n/ACC4AAAAAAAAAAAAUq1FFNt2SFaqoq8nZfOSNQ25tpydk7JaLp/L/T9eWXLFIdcWKck9l9ubZ4slklov3fc03aWPWeZXam0rXzO/3P3PdRxxOLjaOtOjJa9J1V+kfj0KVa2y23K/a1MNdQwbobpyxDjiMTG1HWnTetTpKa5Q6L7Xlr6UkSDQpSKxqGde83ncgAJIAAAAAAAAAAAAAAAAAAAAACGxciZCAuDGSBZMpXrKCu/d1b6Ix1qygrv4dcjT9u7acm0n2uunRdv1OWXLFIdcWKbytt3bLk2k+2Wi7L+TTto4+3xsratvRJc2WxuK0jFOTbtFRzcm9EktWbpuduh4LWIxCUq+sY6xop9Os+suWi5t06UtltuV6964a6hxtz9zeFxxOKjeeTp0nmqfNSn1n0X2fPTegRIv1rFY1DOtabTuTiJMZL+fzJIrkXK/Pz+ZHz+oGQERJAAAARckowLXJKEAZGClxAC4AAAAAAAKzT5Mq4vqZABjUX1ODtnaccNTdSpLtFK15StovnJXZydoY6FGm6lR2ivi3ySXNs8N303oniqrz9VZJJ5JX9mP7vm+ySXLLkikNH0/gW5N+/asef2bSt9FieKF+GeeXKUb3XB2XPra/l1WIxDbUYpylJ2jGOcpSeiSPPeOUpRjTUnNySgo34nJu0VG2d7nvW4W6ksLTVXEtTxUlm8rU0/sRtk31lz8talKWy23K96hjxcX/H7+zPuhuqsN9dWtKu15xpJ6xh36y92mu0AF+tYrGoYNrTadyEMkH18Y+F9RwS6mQAUcX1I4ZdTIAISJAAAAAUcXfUuAMfA+o4X1MgAx8MupaEXzdywAAAAAAAAAFatRRTlJpJJtt6JLVssebekzezgTw9KXP1rc5J6eUX/3L8LvG9orG5WeLxrcjJFK/cNf9IW9jrz8ODahG6S6J6t/if5LLrfzzEVrGSvVebbzZvXok3Q+k1fptaN6NKVqUWsqlWP2u8Y/nLyZQjeW71mXJj4WDVfEfq2b0V7jfR4rGYmH18l9XGX+jBrVrlUkteidubPSAC/WsVjUPH5stst5vbyAAk5AAAAAAAAAAAAAAAAAAAAAAAAAAAjiI4it11OLtLHwo05VJvJLRayfKK7sPsRMzqHU77bxRwlF2f1kll1jHTi8+S758meB4/FyqTc5c/yXJHbb27dliq0pN3V/d2S7JZL+WzXqjM/Nk651Hh7P0/hxxsXf+6fLmbC2TPGYmnhoZOpLOX3YLOc35K/vsuZ9LbNwNOhShRpR4YU4qMV2S59X1Z5p6D9jpRr4uSzb8Gn2jG0qjXm3Ff8AIeqFnBTVd/i8/wCrcicmaa+1f1CvEWMbfc7stbiJ4jG5LqTddQLORKZTi7kwYFwAAAAFZMcQmyvEuoFuIniMaa6k3XUCykWMfF3MgAAACGSQwK8RKkV4l1I4l1AvxAi/f5+BAFuBdDxv0m70OdaWHpu0abcXb7yym/O+Xku7PUIVcVzgvdw/+xpe8fo6WJrTrx44Tm7zS4eBy5yte6b5nLLW011Vf9OzYcOXryx7dvm8hbKN5m37T9HG0YSfhYbjhyaq0r681KS5W5HI2H6K8dVmvpCjh6d/W9eM6jjzUFC8U+7eXR6FL+DfetPSz6lxunq6o/79HpXovwvh7Mw91nNTqf8AUqSlH8mjajFhcPGnCNOCUYQioxS0UYq0UvJJGU0axqNPHZb9d5t+MzIRwokH1BXgXRDgXQsAK+GuhKViQAAAAAAQ0RwLoWAFeFdBwLoWAFVBdCwAAAAAABXgXQcC6FgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH/2Q==">
+    
+    
+            <span class="tags">
+        
+        
+                <span class="availability almost-gone">Almost Gone</span>
+            </span>
+          </a>
+    
+
+    
+          <div class="product--brand">
+    
+            <a href="payment.html" title="View">сокира ручна</a>
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$79.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://boiler.ua/content/images/41/480x480l50mc0/topor-pozharnyy-shturmovoy-16-kg-73085853457450.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">сокира пожежна</a>
+    
+          <div class="product--brand">
+    
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$29.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMMjQEs8i0TQrEMloH-nEhZxCj3kpUoNAe6T2bqTce77D0sjEghW6FvGeOSdgbNOguLa8&usqp=CAU">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">сокира- важка</a>
+    
+          <div class="product--brand">
+    
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$7.94</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="data:image/jpeg;base64,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">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">карабін пожежний</a>
+    
+          <div class="product--brand">
+    
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$39.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="data:image/jpeg;base64,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">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">карабін пожежний</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+                    <div class="price--rrp">Don't pay $24.95</div>
+        
+                    <div class="price--sell-price">$19.95</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://taurus2000.com.ua/wp-content/uploads/2020/12/karabiny-pozharnye-s-zamom.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Набір карабінів</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$39.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://avmg.ua/upload/iblock/639/6398d90f6ecb57e3913969a76a8d0886.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">карабін</a>
+    
+          <div class="product--brand">
+    
+  
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$79.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="data:image/jpeg;base64,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">
+    
+    
+            <span class="tags">
+        
+        
+                <span class="availability almost-gone">Almost Gone</span>
+            </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">підшлемник</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+                    <div class="price--rrp">Don't pay $143.00</div>
+        
+                    <div class="price--sell-price">$79.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://i8.rozetka.ua/goods/20907852/152286800_images_20907852756.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">підшлемник </a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+                    <div class="price--rrp">Don't pay $44.85</div>
+        
+                    <div class="price--sell-price">$16.95</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://content2.rozetka.com.ua/goods/images/big/25442039.jpg">
+    
+    
+            <span class="tags">
+        
+        
+                <span class="availability discount">10% off</span>
+            </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">підшлемник DRAGGER</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price was-price">Was $4.98</div>
+            <div class="price--discount-price">$4.48</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfc6bJtHN418d66_NJw6frdoOWpxgmVo49JA&usqp=CAU">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">маска"ROCKBROS"</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$14.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      
+    </div>
+    
+
+
+    <footer >
+        <div class="top-footer " >
+          <!-- footer item 1 -->
+          <div class="footer-item">
+            <h2 class="footer-title">Додаткова Інформація</h2>
+            <div class="footer-items">
+              <a href="https://dsns.gov.ua/">ДСНС</a><br>
+              <a href="https://ldubgd.edu.ua/">Співпрацівники</a><br>
+              <a href="https://www.kmu.gov.ua/npas/21439378">Секретні відомості</a><br>
+            </div>
+          </div>
+          <!-- footer item 2 -->
+          <div class="footer-item">
+            <h2 class="footer-title">Джерела інформації</h2>
+            <div class="footer-items">
+              <a href="https://www.youtube.com/watch?v=ttpzZXDNKQ8">Відеоролик</a><br>
+              <a href="https://chnpp.gov.ua/ua/">Фотграфії</a><br>
+              <a href="https://chnpp.gov.ua/ua/">Текст</a><br>
+              <a href="https://codepen.io">Футер</a><br>
+              <a href="https://codepen.io">Дизайн</a><br>
+            </div>
+      
+          </div>
+          <!-- footer item 3 -->
+          <div class="footer-item">
+            <h2 class="footer-title">Мої контактні дані</h2>
+            <div class="footer-items">
+              <a href="https://www.instagram.com/bereza_10.08/">instagram</a><br>
+              <a href="https://github.com/">GitHub</a><br>
+            </div>
+          </div>
+          <!-- footer item 4 -->
+          <div class="footer-item">
+            <h2 class="footer-title">Гарячі лінії</h2>
+            <div class="footer-items">
+              <a class="color">090 050 854</a><br>
+              <a class="color">051 258 982</a><br> 
+              <a class="color">065 584 247</a><br>
+            </div>
+          </div>
+        </div>
+        <div class="end-footer">
+          <div class="copyright">FireMarket © 2022 - Present • <b>Інтернет магазин</b></div>
+          <a class="designer" href="#">Береза Арсен КН-11</a>
+        </div>
+      
+      </footer>
+</body>
+</html>

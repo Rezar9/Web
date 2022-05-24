@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="market.css">
+    <link rel="stylesheet" href="payment.html">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            FireMarket
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" target="_blank">About</a>
+          <a href="login.html" target="_blank">Login</a>
+          <a href="register.html" target="_blank">Register</a>
+          <a href="payment.html" target="_blank">Payment</a>
+        </div>
+    </div>
+
+
+    <div></div>
+    <div class="grid-row">
+      <div class="product">
+        <div class="product--card">
+          <a class="product--image" href="index.html" title="View">
+            <img class="img-responsive" src="https://images.prom.ua/1901228047_w640_h640_ognestojkie-kozhanye-pozharnye.jpg">
+            <span class="tags"></span>
+          </a>
+          <a class="product--title" href="payment.html" title="View">Взуття для рятувальникa
+          <div class="product--brand">
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+              <div class="price--rrp">не плати $27.21</div>
+              <div class="price--sell-price">$13.99</div>
+            </span>
+          </a>
+        </div>
+      </div><div class="product">
+        <div class="product--card">
+          <a class="product--image"  title="View">
+            <img class="img-responsive" src="https://ireland.apollo.olxcdn.com/v1/files/q02ctuumwrpp2-UA/image;s=1000x1000">
+            <span class="tags"><span class="availability sold-out">Sold out</span></span>
+          </a>
+          <a class="product--title"  title="View">Пожежне взуття - берци Hanrath</a>
+          <div class="product--brand">
+
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product--card">
+          <a class="product--image" href="payment.html" title="View">
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQty1oTK2W57L0lHHEBUNH9aLanO-RpSE3JUegJRiEskdtTKvZQAwaHe9E8dQ-3dcukX4M&usqp=CAU">
+            <span class="tags">
+        </span>
+          </a>
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття ТСЦ Інженерінг </a>
+          <div class="product--brand">          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                    <div class="price--sell-price">$9.98</div>
+                   </span>
+          </a>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdz3hHXQU7x7Xbgh6jd8Cm8l98ewSOLGB4uw&usqp=CAU">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття ВП-5(3)</a>
+    
+          <div class="product--brand">
+    
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$9.98</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="data:image/jpeg;base64,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">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття ВП-50</a>
+    
+          <div class="product--brand">
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+                    <div class="price--rrp">Don't pay $29.95</div>
+        
+                    <div class="price--sell-price">$18.49</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaoty3J1fmwuDYn0VYpF7f3KDjWAwjHnYP1Ph-z_idTM4UJPmLa8K6LaCdEXCelKjTwss&usqp=CAU">
+    
+    
+            <span class="tags">
+        
+        
+                <span class="availability almost-gone">Almost Gone</span>
+            </span>
+          </a>
+    
+
+    
+          <div class="product--brand">
+    
+            <a href="payment.html" title="View">Пожежне взуття</a>
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$79.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2d_lx_FsOF1mQF-zg9O2ZtFh60MTa-YBKPKxg3_PJQjxpEJZS9loyc_Qd3j_-qLfCoE0&usqp=CAU">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття ВВК-2</a>
+    
+          <div class="product--brand">
+    
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$29.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://oboronec.com.ua/images/tovar/tovar300/berci-nato-demisezonni-F2qSchLTuej.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття</a>
+    
+          <div class="product--brand">
+    
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$7.94</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://cdn.27.ua/499/75/cb/161227_7.jpeg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття Fire Stopper</a>
+    
+          <div class="product--brand">
+    
+
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$39.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://www.acropolis-shop.com.ua/image/cache/catalog/produkt/hunter-clothes/footwear/mcho-1/mcho-1_result-1000x1000.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+                    <div class="price--rrp">Don't pay $24.95</div>
+        
+                    <div class="price--sell-price">$19.95</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRchZdMs6gfNkx8fzuZVA_mhTF0D9slnSgHXHNfXwSldWFMPoxroVOeKxp5ha71hWRNRlQ&usqp=CAU">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$39.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://images.prom.ua/2831607629_vognestijki-shkiryani-pozhezhni.jpg">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття</a>
+    
+          <div class="product--brand">
+    
+  
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$79.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://vp5.in.ua/images/product/450/berci-zimovi-bundes.jpg">
+    
+    
+            <span class="tags">
+        
+        
+                <span class="availability almost-gone">Almost Gone</span>
+            </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+                    <div class="price--rrp">Don't pay $143.00</div>
+        
+                    <div class="price--sell-price">$79.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiMMOyYX8Qh9boQv2QFPKKmBP51oq7FdeIrytlu6iUmas5gugw4T3Op_Abx5HDHt345HY&usqp=CAU">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+                    <div class="price--rrp">Don't pay $44.85</div>
+        
+                    <div class="price--sell-price">$16.95</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://sturm.com.ua/image/cache/catalog/obuv/S12822206-900x900.jpg">
+    
+    
+            <span class="tags">
+        
+        
+                <span class="availability discount">10% off</span>
+            </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price was-price">Was $4.98</div>
+            <div class="price--discount-price">$4.48</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      <div class="product">
+        <div class="product--card">
+    
+          <a class="product--image" href="payment.html" title="View">
+    
+    
+            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo5ktSA75d87SuBfE3wgNdAUORk1zuHx_53OiJPCt7SM9unkAxldl9u_l0-hiMxqkm8rA&usqp=CAU">
+    
+    
+            <span class="tags">
+        
+        
+        </span>
+          </a>
+    
+          <a class="product--title" href="payment.html" title="View">Пожежне взуття "Пожтехніка"</a>
+    
+          <div class="product--brand">
+    
+          </div>
+          <a class="product--price" href="payment.html" title="View">
+            <span class="product--price-inner">
+                   
+            
+                    <div class="price--sell-price">$14.99</div>
+        
+                   </span>
+          </a>
+        </div>
+      </div>
+    
+    
+      
+    </div>
+
+    <footer >
+      <div class="top-footer " >
+        <!-- footer item 1 -->
+        <div class="footer-item">
+          <h2 class="footer-title">Додаткова Інформація</h2>
+          <div class="footer-items">
+            <a href="https://dsns.gov.ua/">ДСНС</a><br>
+            <a href="https://ldubgd.edu.ua/">Співпрацівники</a><br>
+            <a href="https://www.kmu.gov.ua/npas/21439378">Секретні відомості</a><br>
+          </div>
+        </div>
+        <!-- footer item 2 -->
+        <div class="footer-item">
+          <h2 class="footer-title">Джерела інформації</h2>
+          <div class="footer-items">
+            <a href="https://www.youtube.com/watch?v=ttpzZXDNKQ8">Відеоролик</a><br>
+            <a href="https://chnpp.gov.ua/ua/">Фотграфії</a><br>
+            <a href="https://chnpp.gov.ua/ua/">Текст</a><br>
+            <a href="https://codepen.io">Футер</a><br>
+            <a href="https://codepen.io">Дизайн</a><br>
+          </div>
+    
+        </div>
+        <!-- footer item 3 -->
+        <div class="footer-item">
+          <h2 class="footer-title">Мої контактні дані</h2>
+          <div class="footer-items">
+            <a href="https://www.instagram.com/bereza_10.08/">instagram</a><br>
+            <a href="https://github.com/">GitHub</a><br>
+          </div>
+        </div>
+        <!-- footer item 4 -->
+        <div class="footer-item">
+          <h2 class="footer-title">Гарячі лінії</h2>
+          <div class="footer-items">
+            <a class="color">090 050 854</a><br>
+            <a class="color">051 258 982</a><br> 
+            <a class="color">065 584 247</a><br>
+          </div>
+        </div>
+      </div>
+      <div class="end-footer">
+        <div class="copyright">FireMarket © 2022 - Present • <b>Інтернет магазин</b></div>
+        <a class="designer" href="#">Береза Арсен КН-11</a>
+      </div>
+    
+    </footer>
+    
+</body>
+</html>
